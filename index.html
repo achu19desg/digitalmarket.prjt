@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Digital marketing</title>
+</head>
+<body>
+<div class="pl-10">
+  <nav class=" flex h-20 justify-around">
+
+    <div class="flex items-center justify-around gap-3">
+      <h1 class="text-5xl text-purple-950 font-bold ">Logo</h1>
+  
+        <div class="hidden sm:flex ml-20 ">
+          <ul class=" hidden sm:flex font-semibold text-lg gap-3">
+                      <li class="text-black font-semibold">Home</li>
+                      <li class="text-gray-500 font-semibold">About</li>
+                      <li class="text-gray-500 font-semibold">Services</li>
+                     <li class="text-gray-500 font-semibold">Portfolio</li>
+                      <li class="text-gray-500 font-semibold">Pricing</li>
+   
+              </ul>
+             </div>
+            </div>
+                    <!-- contact us -->
+                    <div class=" flex items-center text-white font-semibold ">
+                      <button class="bg-purple-800 text-white rounded font-bold px-5 py-3">Contact Us</button>
+                  
+                    </div> 
+
+          
+   </nav>
+   <main class="flex flex-col-reverse lg:flex-row justify-between gap-6 py-20 max-w-7xl mx-auto">
+    <div class=" lg:w-1/2 flex flex-col items-center lg:items-start gap-4 justify-center">
+      <h2 class="text-4xl font-bold sm:font-bold lg:text-7xl text-purple-950">We Help You<br><span class="text-purple-800">Crush</span> Your <br> Competiton</h2>
+      <p class="font-normal text-center lg:text-start sm:text-purple-950 text-lg ">Build trust to connect your brand to <br>
+        billions of users and grow your revenue <br>through SEO </p>
+        <button class="bg-purple-800 text-white rounded font-bold px-2 py-3">See our service</button>
+    </div>
+    <div class="w-[1/2]">
+      <img class="w-[700px]" src="./digitalm1.png" alt="">
+    </div>
+   </main>
+</div> 
+</body>
+</html>
+        
+    
+</body>
+</html>
